@@ -1,4 +1,4 @@
-// Your JS goes here
+//gradient color
 
 $(document).ready(function(){
 
@@ -7,12 +7,13 @@ $(document).ready(function(){
     div.style.width = "11.1%";
     div.style.float = "left";
     div.style.paddingBottom = "11.1%";
+    div.style.background = 'linear-gradient(to bottom right, rgba(255,0,0,0), rgba(255,0,0,1))';
     if (i % 2 === 0) {
-      div.style.backgroundColor = "red";
+      div.style.backgroundColor = 'rgba(0,0,255,1)';
     } else {
-      div.style.backgroundColor = "black";
+      div.style.backgroundColor = 'rgba(255,0,0,0)';
     }
-    document.body.appendChild(div)
+    document.body.appendChild(div);
   }
 
 });
